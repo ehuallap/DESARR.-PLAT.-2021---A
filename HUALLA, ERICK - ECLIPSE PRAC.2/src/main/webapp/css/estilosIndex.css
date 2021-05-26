@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+body {
+	background-color: #bc9df7;
+}
+.p1 {
+	font-family: Georgia, serif;
+}
+.personal{
+	background-color: #bc9df7
+}
+.title{
+	text-align: center;
+	background-color: #d881e4;
+	font-style: italic;
+	margin: 10px 30px;
+	padding: 5px 10px;
+}
