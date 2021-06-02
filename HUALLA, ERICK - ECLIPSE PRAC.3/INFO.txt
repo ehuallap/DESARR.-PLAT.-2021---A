@@ -1,0 +1,5 @@
+---------------------------------------------------------
+Propietario: Erick Hualla Puelles -> ehuallap@unsa.edu.pe
+---------------------------------------------------------
+
+El siguiente proyecto esta desarrollado en ECLIPSE, respetar derechos de autor
