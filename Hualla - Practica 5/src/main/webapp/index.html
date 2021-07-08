@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    
+	$.ajax({
+		type: "GET",
+		url: "http://localhost:8080/ItemRestService/FindAll", 
+		success: function(result){
+			console.log(result);
+			var obj = result,
+            ul = $("<ul>");
+			for (var i = 0, l = obj.length; i < l; ++i) {
+				ul.append("<li>" + obj[i].id + " -- " + obj[i].description + "</li>");
+			}
+			$("#div1").html(ul);
+    }});
+  });
+});
+</script>
+
+<script>
+$("#form_1").submit(function(e) {
+
+    e.preventDefault();
+
+    var form = $(this);
+    var url = form.attr('action');
+    
+    $.ajax({
+			type: "POST",
+			url: "http://localhost:8080/ItemRestService/Add", 
+			contentType: 'application/json',
+			data: JSON.stringify({"description":description, "finished":false,
+					category:{"id":id, "name":name}}),
+			success: function(result){
+				console.log(result);
+				
+				$("#div2").html(result);
+			},
+			error : function(xhr, status) {
+				console.log(xhr);
+			}
+         });
+
+    
+});
+</script>
+
+
+</head>
+<body>
+
+<h2>VISUALIZACION DE CATEGORIAS</h2>
+<div id="div1"><h3>Este texto sera reemplazado para ver las categorias </h3></div>
+
+<button>Click para ver las categorias [GET]</button>
+
+<div>
+<br>
+<h2>REGISTRO DE CATEGORIAS</h2>
+
+<form id="form_1">
+
+  <label for="description">Ingresar descripcion:</label><br>
+  <input type="text" id="description" name="description"><br><br>
+  
+  <label for="id">Ingresar ID de Categoria:</label><br>
+  <input type="text" id="id" name="id"><br>
+
+  <label for="name">Ingresar Nombre de Categoria:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+  
+  <input type="submit" value="Enviar">
+  
+</form>
+
+<div id="div2"><h3>En este texto se reemplazara la respuesta a su solicitud [POST] </h3></div>
+</div>
+</body>
+</html>
