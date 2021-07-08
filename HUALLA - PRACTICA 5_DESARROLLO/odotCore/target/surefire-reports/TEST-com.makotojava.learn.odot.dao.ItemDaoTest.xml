@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.makotojava.learn.odot.dao.ItemDaoTest" time="8.152" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.boot.library.path" value="E:\VS\ECLIPSE\ENTERPRISE EDITION\JDK\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\PROGRAMMING\WORKSPACE - ECLIPSE\odotCore"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\PROGRAMMING\WORKSPACE - ECLIPSE\odotCore"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Usuario\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\PROGRAMMING\WORKSPACE - ECLIPSE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15887900060750381734.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="E:\VS\ECLIPSE\ENTERPRISE EDITION\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/VS/ECLIPSE/ENTERPRISE EDITION/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;E:/VS/ECLIPSE/ENTERPRISE EDITION/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;E:\VS\GIT\Git\cmd;E:\VS\GIT\Git\mingw64\bin;E:\VS\GIT\Git\usr\bin;&quot;;E:\VS\ECLIPSE\ENTERPRISE EDITION\JDK\bin;E:\VS\APACHE\bin;E:\VS\ANT\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\&quot;;E:\VS\SUBLIME TEXT 4\kotlin-build-1.6.0-dev-115\js\npm\templates\kotlin-compiler\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Usuario\.dotnet\tools;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;%KOTLIN_DIR%E:\VS\SUBLIME TEXT 4\kotlin-build-1.6.0-dev-115\js\npm\templates\kotlin-compiler\bin;;E:\VS\ECLIPSE\ENTERPRISE EDITION\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Usuario"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Usuario"/>
+    <property name="java.class.path" value="E:\VS\ECLIPSE\ENTERPRISE EDITION\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.home" value="E:\VS\ECLIPSE\ENTERPRISE EDITION\JDK"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\PROGRAMMING\WORKSPACE - ECLIPSE\odotCore\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testDelete" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoPessimisticScenariosTest" time="0.518"/>
+  <testcase name="testDelete" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoOptimisticScenariosTest" time="0.523"/>
+  <testcase name="testAdd" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoPessimisticScenariosTest" time="0.558"/>
+  <testcase name="testAdd" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoOptimisticScenariosTest" time="0.518"/>
+  <testcase name="testAdd" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoOptimisticScenariosTest$ItemDaoOptimisticAddWithCategoryScenariosTest" time="0.527"/>
+  <testcase name="testUpdate" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoPessimisticScenariosTest" time="0.513"/>
+  <testcase name="testUpdate" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoOptimisticScenariosTest" time="0.543"/>
+  <testcase name="testUpdate" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoOptimisticScenariosTest$ItemDaoOptimisticUpdateWithCategoryScenariosTest" time="0.542"/>
+  <testcase name="testFindAll" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoOptimisticScenariosTest" time="0.525"/>
+  <testcase name="testFindAll" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoEmptyDbScenariosTest" time="0.511"/>
+  <testcase name="testFindById" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoOptimisticScenariosTest" time="0.528"/>
+  <testcase name="testFindByDescription" classname="com.makotojava.learn.odot.dao.ItemDaoTest$ItemDaoOptimisticScenariosTest" time="0.539"/>
+</testsuite>
